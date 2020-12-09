@@ -1,16 +1,35 @@
 .container{
     max-width: 400px;
+    margin: auto;
+    display: block;
 }
 .hero{
     background-color: black;
-    margin-top: 50px;
+    margin-top: 250px;
     padding-top: 10px;
     padding-bottom: 50px;
-    border-radius: 10px;
+    border-radius: 20px;
 }
 body{
     background-image: url(loginImages/jason-dent-3wPJxh-piRw-unsplash.jpg);
     background-repeat: no-repeat;
+    background-size: 175%;
+    background-position: center;
+}
+body::before {
+    content: "";
+    background-image: url(loginImages/jason-dent-3wPJxh-piRw-unsplash.jpg);
+    background-size: 175%;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.5;
+}
+.header{
+    margin-bottom: 10px; 
+    padding-top: 15px;
 }
 .signUp{
     color:white;
@@ -50,3 +69,4 @@ body{
     color: white;
     text-align: center;
 }
+
