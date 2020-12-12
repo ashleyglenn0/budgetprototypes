@@ -16,17 +16,8 @@ body{
     background-size: 175%;
     background-position: center;
 }
-body::before {
-    content: "";
-    background-image: url(loginImages/jason-dent-3wPJxh-piRw-unsplash.jpg);
-    background-size: 175%;
-    position: absolute;
-    top: 0px;
-    right: 0px;
-    bottom: 0px;
-    left: 0px;
-    opacity: 0.5;
-}
+
+
 .header{
     margin-bottom: 10px; 
     padding-top: 15px;
@@ -54,7 +45,7 @@ body::before {
     padding: 5px 2px;
 }
 .btn-primary{
-    background-color: navy;
+    background-color: rgb(76, 64, 97);
     color: white;
     border: none;
     margin: 10px 100px;
@@ -68,5 +59,8 @@ body::before {
 .description{
     color: white;
     text-align: center;
+}
+.btn-primary:hover {
+    background-color: rgb(76, 64, 97);
 }
 
