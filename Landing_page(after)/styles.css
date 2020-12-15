@@ -11,12 +11,10 @@ body {
 .nav-pills{
     float: right;
 }
-.cards {
-    float: right;
-}
+
 h3{
-    color: whitesmoke;
+    color: silver;
 }
 .nav-link{
-    color: whitesmoke;
+    color: silver;
 }
