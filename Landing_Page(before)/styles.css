@@ -1,0 +1,32 @@
+body{
+    background-image: url(images/ales-nesetril-ex_p4AaBxbs-unsplash\ \(2\).jpg);
+    background-position: center;
+    background-size: 175%;
+}
+.nav {
+    float: right;
+}
+
+h1{
+    color: white;
+}
+.waiting{
+    color: white;
+    text-align: center;
+}
+.body{
+    text-align: center;
+}
+
+.body-info {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -50px;
+    margin-left: -30px;
+    text-align: center;
+}
+.nav-link {
+    color: white;
+}   
+
