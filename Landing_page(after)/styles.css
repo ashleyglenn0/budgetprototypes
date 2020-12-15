@@ -1,0 +1,22 @@
+body {
+    background-image: url(images/rupixen-com-Uxd9_1cJ3Xs-unsplash.jpg);
+    background-position: center;
+    background-size: 125%;
+}
+.user {
+    height: 100px;
+    width: 100px;
+}
+
+.nav-pills{
+    float: right;
+}
+.cards {
+    float: right;
+}
+h3{
+    color: whitesmoke;
+}
+.nav-link{
+    color: whitesmoke;
+}
