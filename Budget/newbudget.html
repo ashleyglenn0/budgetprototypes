@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <title>New Budget</title>
+</head>
+<div class="hero">
+    <div class="container">
+        <nav>
+            <div class="profile">
+                <img class="user" src="images/user.svg">
+                <h3>Welcome Ashley!!!</h3>
+            </div>
+            <ul class="nav nav-pills">
+                <li role="presentation" class="nav-item"><a class="nav-link"href="#">Home</a></li>
+                <li role="presentation" class="nav-item"><a class="nav-link"href="#">View Budgets</a></li>
+                <li role="presentation" class="nav-item"><a class="nav-link" href="#">View Letters</a></li>
+                <li role="presentation" class="nav-item"><a class="nav-link" href="#">Log out</a></li>
+            </ul>
+        </nav>
+            <body>
+            <div class="input-group">
+                <div class="input-group">
+                    <span class="input-group-text">Company Name & Number</span>
+                    <input type="text" aria-label="Company name" class="form-control">
+                    <input type="text" aria-label="Company number" class="form-control">
+                  </div>
+
+                <select class="form-select" id="inputGroupSelect04" aria-label="Example select with button addon">
+                  <option selected>Type</option>
+                  <option value="1">Income</option>
+                  <option value="2">Expense</option>
+                  <option value="3">Savings</option>
+                </select>
+                <!-- <button class="btn btn-outline-secondary" type="button">Button</button> -->
+              </div>
+              <div class="input-group">
+                <input type="text" class="form-control" aria-label="Dollar amount (with dot and two decimal places)">
+                <span class="input-group-text">$</span>
+                <span class="input-group-text">0.00</span>
+              </div>
+              <button type="button" class="btn btn-primary">Add to Budget</button> <button type="button" class="btn btn-primary">Clear</button>
+        </body>
+
+</html>
