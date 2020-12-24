@@ -1,0 +1,26 @@
+body {
+    background-image: url(images/rupixen-com-Cz0kKadR9Co-unsplash.jpg);
+    background-position: center;
+    background-size: 125%;    
+}
+
+.nav {
+    float: right;
+}
+
+h3{
+    color: white;
+}
+.form-select{
+    height: 50px;
+    width: 300px;
+}
+
+.input-group {
+    padding:10px;
+}
+
+label {
+    color: white;
+}
+
